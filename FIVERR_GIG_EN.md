@@ -1,6 +1,7 @@
 # Fiverr Gig — paste into Fiverr
 
-Replace `YOUR_PORTFOLIO_URL` with your live portfolio after deploy.
+Portfolio URL: https://portfolio-hub-roan.vercel.app
+Gym demo: https://iron-body-gym-iota.vercel.app
 
 ---
 
@@ -20,7 +21,7 @@ Need a website that looks premium and works for your business?
 I build custom Next.js websites: barbershops, salons, fitness, beauty brands, local services.
 
 ✅ LIVE PORTFOLIO — open before you order
-YOUR_PORTFOLIO_URL
+https://portfolio-hub-roan.vercel.app
 
 Featured demos:
 • Eskişehir Premium Berber — online booking + Telegram bot + Google Sheets admin
@@ -30,7 +31,7 @@ Featured demos:
 • IRON & BLADE — English barbershop (same booking stack)
   https://barber-site-mocha.vercel.app/
 • IRON BODY GYM — fitness landing, EN/RU/TR, animations
-  (link on portfolio page)
+  https://iron-body-gym-iota.vercel.app/
 
 PACKAGES
 Basic $50 — landing page, contact, SEO, deploy to your domain

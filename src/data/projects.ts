@@ -8,6 +8,8 @@ export type Project = {
   highlights: string[];
   url: string;
   image: string;
+  imageWidth: number;
+  imageHeight: number;
   tags: string[];
   accent: string;
   border: string;
@@ -32,7 +34,9 @@ export const PROJECTS: Project[] = [
       "Stack: Next.js 16, React 19, Tailwind 4, Framer Motion, grammY, Vercel",
     ],
     url: "https://premium-barbershop-red.vercel.app/",
-    image: "/projects/premium-barber.png",
+    image: "/projects/premium-barber.webp",
+    imageWidth: 2560,
+    imageHeight: 1440,
     tags: [
       "Online booking",
       "Google Sheets",
@@ -60,6 +64,8 @@ export const PROJECTS: Project[] = [
     ],
     url: "https://lumiere-parfume.vercel.app/",
     image: "/projects/lumiere.png",
+    imageWidth: 1536,
+    imageHeight: 1024,
     tags: [
       "E-commerce",
       "Admin panel",
@@ -84,7 +90,9 @@ export const PROJECTS: Project[] = [
       "English UI (separate brand demo — not the Eskişehir client site)",
     ],
     url: "https://barber-site-mocha.vercel.app/",
-    image: "/projects/iron-blade.png",
+    image: "/projects/iron-blade.webp",
+    imageWidth: 2560,
+    imageHeight: 1440,
     tags: [
       "Same as Premium Barber",
       "Booking",
@@ -111,7 +119,9 @@ export const PROJECTS: Project[] = [
       "Stack: Next.js 14, TypeScript, Tailwind CSS, Framer Motion, Vercel",
     ],
     url: SITE.gymUrl,
-    image: "/projects/iron-body-gym.png",
+    image: "/projects/iron-body-gym.webp",
+    imageWidth: 2560,
+    imageHeight: 1440,
     live: true,
     tags: ["Fitness", "Landing page", "i18n EN/RU/TR", "Glass UI", "Animations"],
     accent: "from-violet-500/25 to-cyan-500/15",
