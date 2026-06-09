@@ -63,9 +63,9 @@ export const PROJECTS: Project[] = [
       "Stack: Next.js 14, TypeScript, Tailwind, Framer Motion, GSAP, next-intl, Zustand",
     ],
     url: "https://lumiere-parfume.vercel.app/",
-    image: "/projects/lumiere.png",
-    imageWidth: 1536,
-    imageHeight: 1024,
+    image: "/projects/lumiere.webp",
+    imageWidth: 2560,
+    imageHeight: 1195,
     tags: [
       "E-commerce",
       "Admin panel",
