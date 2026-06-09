@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0a0f"/>
+      <stop offset="50%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#4c1d95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <text x="600" y="260" fill="#fff" font-family="system-ui,sans-serif" font-size="52" font-weight="700" text-anchor="middle">Web Developer Portfolio</text>
+  <text x="600" y="330" fill="#a78bfa" font-family="system-ui,sans-serif" font-size="24" text-anchor="middle">Live business demos · Next.js</text>
+  <text x="600" y="400" fill="#71717a" font-family="system-ui,sans-serif" font-size="18" text-anchor="middle">Barbershop · E-commerce · Fitness</text>
+  <rect x="350" y="450" width="500" height="56" rx="28" fill="#7c3aed"/>
+  <text x="600" y="486" fill="#fff" font-family="system-ui,sans-serif" font-size="18" font-weight="600" text-anchor="middle">Open live demos</text>
+</svg>

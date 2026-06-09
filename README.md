@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio Hub
 
-## Getting Started
+Single-page portfolio with links to **live project demos** — for Fiverr gig and profile.
 
-First, run the development server:
-
-```bash
+```powershell
+cd "C:\Users\user\Desktop\portfolio-hub"
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+→ **http://localhost:3010**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Deploy to Vercel
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Create GitHub repo and push this folder
+2. Import on [vercel.com](https://vercel.com)
+3. Set environment variables (optional):
 
-## Learn More
+| Variable | Example |
+|----------|---------|
+| `NEXT_PUBLIC_SITE_URL` | `https://your-portfolio.vercel.app` |
+| `NEXT_PUBLIC_FIVERR_URL` | `https://www.fiverr.com/your_username` |
 
-To learn more about Next.js, take a look at the following resources:
+4. Put the live URL in `FIVERR_GIG_EN.md` (replace `[PORTFOLIO_URL]`)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Projects listed
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Eskişehir Premium Berber — booking + Telegram + Sheets
+- **LUMIÈRE** — luxury e-commerce → https://lumiere-parfume.vercel.app/
+- IRON & BLADE — barbershop variant (English UI)
+- IRON BODY GYM — fitness landing (coming soon on live URL)
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Fiverr gig copy: see **`FIVERR_GIG_EN.md`**
